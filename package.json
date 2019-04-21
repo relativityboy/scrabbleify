@@ -1,0 +1,24 @@
+{
+  "name": "@hyggedyne/scrabbleify",
+  "version": "0.1.0",
+  "description": "Scrabbleify words (mix letters within words and output the result)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/relativityboy/scrabbleify.git"
+  },
+  "keywords": [
+    "scrabble",
+    "mixletters",
+    "randomize"
+  ],
+  "author": "relativityboy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/relativityboy/scrabbleify/issues"
+  },
+  "homepage": "https://github.com/relativityboy/scrabbleify#readme"
+}
