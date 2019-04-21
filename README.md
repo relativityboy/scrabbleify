@@ -2,7 +2,7 @@
 Scrabbleify words (mix letters within words and output the result)
 
 ### Version history
-#### 0.1.0
+#### 0.1.1
 Supports mixing characters within words. 
 Respects the position of *inviolates* like basic punctuation and numbers. (customizable)
 `1234567890`, `,'".;:` and `\~!@#$%^&*()_+{}[]|`
