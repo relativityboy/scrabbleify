@@ -1,6 +1,6 @@
 {
   "name": "@hyggedyne/scrabbleify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scrabbleify words (mix letters within words and output the result)",
   "main": "index.js",
   "scripts": {

@@ -17,9 +17,9 @@ const scrabbleify = (str='', separator=[' ']) => {
   return segments.join(sep)
 }
 
-const numbers = '1234567890'.split()
-const punctuation = ',\'".;:'.split()
-const symbols = '~!@#$%^&*()_+{}[]|\\'.split()
+const numbers = '1234567890'.split('')
+const punctuation = `,'".;:`.split('')
+const symbols = `~!@#$%^&*()_+{}[]|\`\\`.split('')
 const all = numbers.concat(punctuation).concat((symbols))
 
 module.exports = {
@@ -27,7 +27,6 @@ module.exports = {
     let sep = (separator.constructor !== Array)? [separator] : separator
     if(!inviolates) {
       return scrabbleify(str, separator)
-
     } else if(inviolates === true) {
       return scrabbleify(str, separator.concat(all))
     } else {
